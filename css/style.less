@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+}
+
+body {
+	position: relative;
+	margin: 0 auto;
+	width: 1920px;
+}
+
+@paddingsite: 1175px;
+
+.main-header {
+	position: absolute;
+	z-index: 1;
+	display: flex;
+	left:50%; 
+	margin-left:-32%;
+	width: @paddingsite;
+	.logo {
+		display: flex;
+	}
+	.main-navigation {
+		display: flex;
+
+		.container {
+		display: flex;
+		list-style-type: none;
+		}
+	}
+}
+
+.slider {
+	position: absolute;
+	background-image: url(../img/image1.jpg);
+	width: 1920px;
+	height: 1024px;
+}
