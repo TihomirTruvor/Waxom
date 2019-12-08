@@ -1,38 +1,196 @@
+/*=================FONTS Raleway====================*/
+@font-face {
+    font-family: 'raleway-bold';
+    src: url('../fonts/raleway/raleway-bold-webfont.eot');
+    src: url('../fonts/raleway/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway/raleway-bold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'raleway-extrabold';
+    src: url('../fonts/raleway/raleway-extrabold-webfont.eot');
+    src: url('../fonts/raleway/raleway-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway/raleway-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'raleway-regular';
+    src: url('../fonts/raleway/raleway-regular-webfont.eot');
+    src: url('../fonts/raleway/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fonts/raleway/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+}
+/*=================FONTS Montserrat====================*/
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url('../fonts/montserrat/montserrat-bold-webfont.eot');
+    src: url('../fonts/montserrat/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-light';
+    src: url('../fonts/montserrat/montserrat-light-webfont.eot');
+    src: url('../fonts/montserrat/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat/montserrat-light-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url('../fonts/montserrat/montserrat-medium-webfont.eot');
+    src: url('../fonts/montserrat/montserrat-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat/montserrat-medium-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url('../fonts/montserrat/montserrat-regular-webfont.eot');
+    src: url('../fonts/montserrat/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-thin';
+    src: url('../fonts/montserrat/montserrat-thin-webfont.eot');
+    src: url('../fonts/montserrat/montserrat-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat/montserrat-thin-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat/montserrat-thin-webfont.woff') format('woff');
+    font-weight: normal;
+}
+/*=================END-FONTS======================*/
+
 * {
 	margin: 0;
 }
 
-body {
-	position: relative;
-	margin: 0 auto;
-	width: 1920px;
-}
-
+@sitewidth: 1920px;
 @paddingsite: 1175px;
 
-.main-header {
-	position: absolute;
-	z-index: 1;
-	display: flex;
-	left:50%; 
-	margin-left:-32%;
-	width: @paddingsite;
-	.logo {
-		display: flex;
-	}
-	.main-navigation {
-		display: flex;
+body {
+	margin: 0 auto;
+	width: @sitewidth;
+}
 
-		.container {
+/*=================HEADER======================*/
+.main-header {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 1024px;
+	background-color: #555556;
+	background-image: url(../img/image1.jpg);
+	.container {
 		display: flex;
-		list-style-type: none;
+		width: @paddingsite;
+		margin: 0 auto;
+		margin-top: 40px;
+		.logo {
+			display: flex;
+			justify-content: space-between;
+			width: 184px;
+			margin-right: 219px;
+			color: #ffffff;
+			align-items: center;
+			text-decoration: none;
+			.logo-svg {
+				fill: currentColor;
+			}
+			&:hover {
+				color: #998675;
+			}
+			.logo-text {
+				font-family: 'raleway-regular';
+				font-size: 34px;
+			}
+		}
+		.main-navigation {
+			display: flex;
+			align-items: center;
+			.main-navigation-list {
+				display: flex;
+				justify-content: space-between;
+				width: 640px;
+				margin-right: 63px;
+				.main-navigation-item {
+					font-family: montserrat-regular;
+					font-size: 14px;
+					color: #ffffff;
+					text-decoration: none;
+					text-transform: capitalize;
+					&:hover {
+						color: #998675;
+					}
+				}
+			}
+			.main-menu {
+				display: flex;
+				justify-content: space-between;
+				width: 72px;
+				.main-basket {
+					padding: 0;
+					background: transparent;
+					border: none;
+					outline: none;
+					cursor: pointer;
+					.basket-svg {
+						fill: #ffffff;
+						&:hover {
+							fill: #998675;
+						}
+					}
+				}
+				.main-search {
+					.search-svg {
+						fill: #ffffff;
+						&:hover {
+							fill: #998675;
+						}
+					}					
+				}
+			}
+		}
+	}
+	.slider {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-top: 285px;
+		.tegline {
+			width: 590px;
+			margin: 0 auto;
+			color: #ffffff;
+			text-align: center;
+			span {
+				font-family: 'raleway-regular';
+				font-size: 34px;
+				font-weight: 500;
+			}
+			h1 {
+				margin: 0;
+				margin-top: 12px;
+				font-family: 'raleway-extrabold';
+				font-size: 52px;
+			}
+			p {
+				margin-top: 19px;
+				font-family: 'montserrat-light';
+				font-size: 16px;
+			}
 		}
 	}
 }
+/*=================END-HEADER======================*/
 
-.slider {
-	position: absolute;
-	background-image: url(../img/image1.jpg);
-	width: 1920px;
-	height: 1024px;
-}
