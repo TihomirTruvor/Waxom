@@ -92,9 +92,12 @@
 	text-decoration: none;
 	color: #ffffff;
 	&:hover {
+		transition: background 0.8s ease;
 		background-color: #736357;
+
 	}
 	&:active {
+		transition: background 0.2s ease;
 		background-color: #998675;
 		box-shadow: inset 0px -3px 0 0 #998675;
 	}
@@ -138,6 +141,9 @@ body {
 			&:hover {
 				color: #998675;
 			}
+			&:active {
+				color: #736357;
+						}
 			.logo-text {
 				font-family: 'raleway-regular';
 				font-size: 34px;
@@ -160,6 +166,9 @@ body {
 					&:hover {
 						color: #998675;
 					}
+					&:active {
+						color: #736357;
+					}
 				}
 			}
 			.main-menu {
@@ -177,15 +186,39 @@ body {
 						&:hover {
 							fill: #998675;
 						}
+						&:active {
+							fill: #736357;
+						}
 					}
 				}
 				.main-search {
-					.search-svg {
-						fill: #ffffff;
-						&:hover {
-							fill: #998675;
-						}
-					}					
+					width: 24px;
+					height: 24px;
+					input[type="search"] {
+						width: 100%;
+						height: 100%;
+						padding: 5px;
+						box-sizing: border-box;
+						border: none;
+						outline: none;
+						background-color: transparent;
+						background-image: url(../img/icon-search.svg);
+						background-size: contain;
+						background-repeat: no-repeat;
+						font-family: montserrat-regular;
+						font-size: 14px;
+						color: #ffffff;
+						text-transform: capitalize;
+						cursor: pointer;
+					}
+					input[type="search"]:focus {
+						width: 300px;
+						padding-right: 24px;
+						border: 1px solid #998675;
+						transition: width 0.7s ease-out;
+						background-position: right;
+						background-image: url(../img/icon-search.svg);
+					}				
 				}
 			}
 		}
@@ -237,6 +270,9 @@ body {
 			&:hover {
 				fill: #ffffff;
 			}
+			&:active {
+				fill: #998675;
+			}
 		}
 		.arrow-right {
 			position: absolute;
@@ -245,6 +281,9 @@ body {
 			fill: #aaaaab;
 			&:hover {
 				fill: #ffffff;
+			}
+			&:active {
+				fill: #998675;
 			}
 		}
 		.slider-navigation {
@@ -268,7 +307,7 @@ body {
 				}
 				&:active {
 					box-shadow: 0 0 0 2px #d3c1ad;
-					background-color: transparent;
+					background-color: #c7b299;
 				}
 			}
 		}
@@ -282,13 +321,14 @@ body {
 	justify-content: space-between;
 	width: @paddingsite;
 	margin: 0 auto;
+	background-color: #ffffff;
 	.services-item {
 		display: flex;
-		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
 		width: 267px;
-		min-height: 214px;
+		height: 214px;
 		margin-top: 80px;
-		border-bottom: 3px solid #f1eee9;
 		text-align: center;
 		text-decoration: none;
 		color: #555555;
@@ -316,14 +356,99 @@ body {
 		}
 		.services-item-title {
 			margin-top: 30px;
+			width: 100%;
 			font-family: 'raleway-bold';
 			font-size: 22px;
 		}
 		&:hover {
 			color: #c7b299;
-			border-bottom: 3px solid #c7b299;
 		}
-
+		&:active {
+			color: #8c8c8c;
+		}
+	}
+	.services-item:after {
+		content: "";
+		display: block;
+		width: 70px;
+		height: 3px;
+		margin-top: 33px;
+		background-color: #f1eee9;
+	}
+	.services-item:hover:after {
+		background-color: #c7b299;
+	}
+	.services-item:active:after {
+		background-color: #8c8c8c;
 	}
 }
+.realizations {
+	width: 100%;
+	min-height: 700px;
+	margin-top: 80px;
+	background-color: #fbfaf8;
+	.realizations-container {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		position: relative;
+		width: @paddingsite;
+		margin: 0 auto;
+		.realizations-title {
+			width: 100%;
+			margin-top: 80px;
+			text-align: center;
+			font-family: 'raleway-bold';
+			font-size: 30px;
+			color: #555555;
+		}
+		.realizations-text {
+			margin: 0 auto;
+			margin-top: 20px;
+			width: 757px;
+			text-align: center;
+			font-family: 'montserrat-light';
+			font-size: 16px;
+			line-height: 1.75;
+			color: #8c8c8c;
+		}
+		.browser-img1 {
+			position: absolute;
+			top: 300px;
+			left: 0;
+			z-index: 1;
+			&:hover {
+				width: 870px;
+				height: 500px;
+				top: 200px;
+				z-index: 4;
+			}
+		}
+		.browser-img2 {
+			position: absolute;
+			top: 218px;
+			left: 50%;
+			margin-left: -385px;
+			z-index: 3;
+			&:hover {
+				width: 820px;
+				height: 532px;
+				top: 168px;
+			}
+		}
+		.browser-img3 {
+			position: absolute;
+			top: 300px;
+			right: 0;
+			z-index: 2;
+			&:hover {
+				width: 870px;
+				height: 500px;
+				top: 200px;
+				z-index: 4;
+			}
+		}
+	}
+}
+
 
