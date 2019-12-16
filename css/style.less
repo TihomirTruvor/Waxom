@@ -846,19 +846,25 @@ body {
 				}
 				.posts-item-link {
 					display: block;
+					position: relative;
 					margin-top: 24px;
 					font-family: 'montserrat-light';
 					text-decoration: none;
 					font-size: 14px;
 					line-height: 22px;
 					color: #c7b299;
+					&:hover {
+						color: #736357;
+					}
 				}
 				.posts-item-link:after {
+					position: absolute;
 					content: "";
-
-					color: #c7b299;
-
-
+					border-left: 6px solid #c7b299;
+					border-top: 5px solid transparent;
+					border-bottom: 5px solid transparent;
+					top: 6px;
+					left: 83px;
 				}
 			}
 			.posts-paginations-list {
@@ -888,6 +894,25 @@ body {
 					}
 				}
 			}
+			&:hover {
+				.posts-item-date {
+					.posts-item-day {
+						background-color: #c7b299;
+					}
+					.posts-item-month {
+						background-color: #a48d72;
+					}
+				}
+				.posts-item-wrp {
+					background-color: #362f2d;
+					.posts-item-title {
+						color: #c7b299;
+					}
+					.posts-item-text {
+						color: #ffffff;
+					}
+				}
+			}
 		}
 		.one {
 			background-image: url(../img/posts-image1.jpg);
@@ -905,9 +930,77 @@ body {
 			background-position: top 0 left 0;
 		}
 	}
+	.posts-btn {
+		display: flex;
+		justify-content: center;
+		margin-top: 40px;
+		.posts-btn-left,
+		.posts-btn-right {
+			width: 22px;
+			height: 22px;
+			border: none;
+			outline: none;
+			background-color: transparent;
+			cursor: pointer;
+			.btn-left-svg,
+			.btn-right-svg {
+				fill: #d1d1d1;
+			}
+			&:hover {
+				.btn-left-svg,
+				.btn-right-svg {
+					fill: #c7b299;
+				}
+			}
+			&:active {
+				.btn-left-svg,
+				.btn-right-svg {
+					fill: #736357;
+				}
+			}
+		}
+		.posts-btn-left {
+			margin-right: 8px;
+		}
+	}
 }
-
-
+.partners {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 80px;
+	width: @sitewidth;
+	min-height: 489px;
+	background-image: url(../img/partners-img.jpg);
+	.partners-wrp {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: @paddingsite;
+		padding: 0 30px;
+		box-sizing: border-box;
+		.partners-item1 {
+			width: 210px;
+			height: 127px;
+			background-image: url(../img/partners01.png);
+		}
+		.partners-item2 {
+			width: 210px;
+			height: 210px;
+			background-image: url(../img/partners02.png);
+		}
+		.partners-item3 {
+			width: 210px;
+			height: 130px;
+			background-image: url(../img/partners03.png);
+		}
+		.partners-item4 {
+			width: 210px;
+			height: 164px;
+			background-image: url(../img/partners04.png);
+		}
+	}
+}
 
 
 
