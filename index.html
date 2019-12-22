@@ -5,6 +5,7 @@
 	<title>Waxom | Portfolio PSD Template</title>
 	<link href="css/normalize.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width">
 </head>
 <body>
 	<header class="main-header">
@@ -18,7 +19,15 @@
 				<span class="logo-text">Waxom</span>
 			</a>
 			<nav class="main-navigation">
-				<div class="main-navigation-list"> <!--Не пойму... создаются пустые ссылки рядом-->
+				<label for="mobile-menu">
+					<div class="mobile-wrap">
+					<div class="mobile-upper"></div>
+					<div class="mobile-middle"></div>
+					<div class="mobile-bottom"></div>
+				</div>
+				</label><!--Для мобильного меню-->
+    			<input type="checkbox" id="mobile-menu"><!--Для мобильного меню-->
+    			<div class="main-navigation-list"> <!--Не пойму... создаются пустые ссылки рядом-->
 					<a class="main-navigation-item" href="#">Home<a/>
 					<a class="main-navigation-item" href="#">About Us<a/>
 					<a class="main-navigation-item" href="#">Portfolio<a/>
@@ -399,7 +408,70 @@
 			</div>
 		</section>
 	</main>
-	<footer>
+	<footer class="main-footer">
+		<div class="footer-top-wrp">
+			<div class="footer-about-waxom">
+				<a href="index.html" class="footer-about-logo">
+					<svg class="footer-logo-svg" xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					width="64" height="56">
+					<path fill-rule="evenodd" d="M52.873,55.128 L58.125,45.939 L63.377,55.128 L52.873,55.128 ZM46.303,45.172 L56.811,45.172 L51.557,54.359 L46.303,45.172 ZM51.557,34.451 L56.811,43.641 L46.303,43.641 L51.557,34.451 ZM39.738,33.686 L50.243,33.686 L44.990,42.874 L39.738,33.686 ZM44.990,22.967 L50.243,32.154 L39.738,32.154 L44.990,22.967 ZM33.168,22.202 L43.676,22.202 L38.422,31.390 L33.168,22.202 ZM38.422,11.480 L43.676,20.671 L33.168,20.671 L38.422,11.480 ZM26.600,10.713 L37.108,10.713 L31.854,19.905 L26.600,10.713 ZM31.854,-0.006 L37.108,9.184 L26.600,9.184 L31.854,-0.006 ZM20.032,20.671 L25.286,11.480 L30.540,20.671 L20.032,20.671 ZM13.465,32.154 L18.718,22.967 L23.971,32.154 L13.465,32.154 ZM6.897,43.641 L12.151,34.451 L17.404,43.641 L6.897,43.641 ZM0.331,55.128 L5.582,45.939 L10.836,55.128 L0.331,55.128 ZM17.404,45.172 L12.151,54.359 L6.897,45.172 L17.404,45.172 ZM23.971,33.686 L18.718,42.874 L13.465,33.686 L23.971,33.686 ZM30.540,22.202 L25.286,31.390 L20.032,22.202 L30.540,22.202 ZM37.108,55.128 L26.600,55.128 L31.854,45.939 L37.108,55.128 ZM43.676,45.172 L38.422,54.359 L33.168,45.172 L43.676,45.172 ZM50.243,55.128 L39.738,55.128 L44.990,45.939 L50.243,55.128 Z"/>
+					</svg>
+					<span class="footer-logo-text">Waxom</span>
+				</a>
+				<p class="footer-about-text">Lorem ipsum dolor sit amet, consec-tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+				<a href="#" class="footer-about-link">Read More</a>
+			</div>
+			<div class="footer-recent-posts">
+				<h3 class="footer-title">Recent Posts</h3>
+				<div class="footer-recent-posts-item">
+					<span class="footer-recent-posts-date">September 08, 2015</span>
+					<p class="footer-recent-posts-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+				</div>
+				<div class="footer-recent-posts-item">
+					<span class="footer-recent-posts-date">September 08, 2015</span>
+					<p class="footer-recent-posts-text">Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+				</div>
+				<div class="footer-recent-posts-item">
+					<span class="footer-recent-posts-date">September 08, 2015</span>
+					<p class="footer-recent-posts-text">LClaritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+				</div>
+			</div>
+			<div class="footer-our-twitter">
+				<h3 class="footer-title">Our Twitter</h3>
+				<div class="footer-our-twitter-item">
+					<p class="footer-our-twitter-text"><span>@waxom</span> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+					<span class="footer-our-twitter-date">3 mins ago</span>
+				</div>
+				<div class="footer-our-twitter-item">
+					<p class="footer-our-twitter-text">Mirum est <span>#envato</span> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+					<span class="footer-our-twitter-date">5 hours ago</span>
+				</div>
+				<div class="footer-our-twitter-item">
+					<p class="footer-our-twitter-text">Soluta nobis option <a href="">bit.ly/1Hniso7</a></p>
+					<span class="footer-our-twitter-date">20 days ago</span>
+				</div>
+			</div>
+			<div class="footer-dribble-widget">
+				<h3 class="footer-title">Dribbble Widget</h3>
+				<img src="img/dribbleW1.jpg" class="item-dribble-widget" alt="Dribble Widget1" width="130" height="98">
+				<img src="img/dribbleW2.jpg" class="item-dribble-widget" alt="Dribble Widget2" width="130" height="98">
+				<img src="img/dribbleW3.jpg" class="item-dribble-widget" alt="Dribble Widget3" width="130" height="98">
+				<img src="img/dribbleW4.jpg" class="item-dribble-widget" alt="Dribble Widget4" width="130" height="98">
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="footer-bottom-wrp">
+				<div class="footer-bottom-left">
+					<p>Copyright &copy; 2015 <span>Waxom</span></p>
+					<a href="#">Privacy Policy</a>
+					<a href="#">FAQ</a>
+					<a href="#">Support</a>
+				</div>
+				<p class="footer-bottom-right">Designed by <span>ThemeFire</span> | Only on <span>Envato Market</span></p>
+				
+			</div>
+		</div>
 	</footer>
 </body>
 </html>
