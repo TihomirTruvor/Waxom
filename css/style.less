@@ -173,32 +173,26 @@ body {
 			display: flex;
 			align-items: center;
 			box-sizing: border-box;
-			label { /*Для мобильного меню*/
+			.label-mobile-menu { /*Для мобильного меню*/
 				display: none;
-				.mobile-wrap { /*Для мобильного меню*/
-					cursor: pointer;
-					height: 50px;
-					width: 50px;
-					background-color: #555556;
-					padding: 20px;
-					font-family: arial;
-					color: #ffffff;
-					position: relative;
-					div {
-						background-color: #ffffff;
-						height: 3px;
-						width: 80%;
-						margin: 10px auto;
-						transition: 0.2s ease-out;
-					}
-					&:hover div { //Для мобильного меню
-						background-color: #998675;
-					}
-					&:active div { //Для мобильного меню
-						background-color: #736357;
-					}
-				}
+				
 			}
+			.label-mobile-menu:after {/*Для мобильного меню*/
+				position: absolute;
+				content: "\2261";
+				padding: 20px;
+				font-size: 90px;
+				line-height: 34px;
+				color: #ffffff;
+				background-color: #555556;
+			}
+				.label-mobile-menu:hover:after {/*Для мобильного меню*/
+						color: #998675;
+				}
+				.label-mobile-menu:active:after {/*Для мобильного меню*/
+						color: #736357;
+				}
+
 			#mobile-menu { /*Для мобильного меню*/
 				visibility: hidden;
 			}
@@ -1237,10 +1231,10 @@ body {
 				.main-navigation {
 					position: relative;
 					width: @paddingmedia;
-					label {
+					.label-mobile-menu {
 						display: block; 
 						position: absolute;
-						right: 0;
+						right: 90px;
 						top: 5px;
 					}
 					.main-navigation-list {
