@@ -1,0 +1,785 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"que",
+				"querySelector"
+			],
+			[
+				"curren",
+				"currentActiveIndex"
+			],
+			[
+				"curre",
+				"currentActiveIndex"
+			],
+			[
+				"querySele",
+				"querySelector"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"evnt",
+				"eventMove"
+			],
+			[
+				"figu",
+				"figurs"
+			],
+			[
+				"isA",
+				"isActiveCell"
+			],
+			[
+				"ac",
+				"active"
+			],
+			[
+				"eve",
+				"eventMove"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"addE",
+				"addEventListener"
+			],
+			[
+				"ad",
+				"add"
+			],
+			[
+				"fig",
+				"figure"
+			],
+			[
+				"q",
+				"queen"
+			],
+			[
+				"ki",
+				"king"
+			],
+			[
+				"ite",
+				"item\t( index: unsigned long ): File FileList"
+			],
+			[
+				"roo",
+				"rook"
+			],
+			[
+				"add",
+				"addCell"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"li",
+				"light"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"whi",
+				"white"
+			],
+			[
+				"le",
+				"let"
+			],
+			[
+				"ce",
+				"cell"
+			],
+			[
+				"sty",
+				"style\t Style CSS"
+			],
+			[
+				"onc",
+				"onclick\t: EventHandler Window"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"fo",
+				"for\tfor (…) {…}"
+			],
+			[
+				"const",
+				"const"
+			],
+			[
+				"ap",
+				"appendChild\t( node: Node ): Node Node"
+			],
+			[
+				"crea",
+				"createElement\t( localName: DOMString ): Element Document"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"app",
+				"apple"
+			],
+			[
+				"col",
+				"color\t = 'inherit' Style CSS"
+			],
+			[
+				"conso",
+				"console.log"
+			],
+			[
+				"Fru",
+				"Fruit"
+			],
+			[
+				"sh",
+				"showFruit"
+			],
+			[
+				"ke",
+				"key\t: DOMString StorageEvent"
+			],
+			[
+				"wri",
+				"write\t( text_..: DOMString ): void Document"
+			],
+			[
+				"let",
+				"let"
+			],
+			[
+				"su",
+				"subtr"
+			],
+			[
+				"bo",
+				"box-sizing"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"fff",
+				"ffffff"
+			],
+			[
+				"fle",
+				"flex-wrap\tproperty"
+			],
+			[
+				"bg",
+				"background-repeat"
+			],
+			[
+				"bacg",
+				"background-repeat"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"med",
+				"@media\t@media ${1:screen} {\n\t${0}\n}"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"tdr",
+				"text-decoration\tproperty"
+			],
+			[
+				"mo",
+				"montserrat-light"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"ra",
+				"raleway-regular"
+			],
+			[
+				"Mon",
+				"montserrat-light"
+			],
+			[
+				"box-s",
+				"box-sizing"
+			],
+			[
+				"padd",
+				"paddingsite"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"text-",
+				"text-transform\tproperty"
+			],
+			[
+				"flex-",
+				"flex-direction\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"mb",
+				"margin-bottom\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"wr",
+				"word-wrap\tproperty"
+			],
+			[
+				"padding",
+				"paddingsite"
+			],
+			[
+				"z-",
+				"z-index\tproperty"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"u",
+				"url()\tbackground-image"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"c",
+				"currentColor\tfill"
+			],
+			[
+				"ma",
+				"margin-top\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"texr",
+				"text-transform\tproperty"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"spac",
+				"space-between\tjustify-content"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"main",
+				"main-navigation"
+			],
+			[
+				"margin-",
+				"margin-right\tproperty"
+			],
+			[
+				"cu",
+				"cursor\tproperty"
+			],
+			[
+				"borde",
+				"border\tproperty"
+			],
+			[
+				"bgc",
+				"bgc-t\tbackground-color: transparent;"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"fi",
+				"fill\tproperty"
+			],
+			[
+				"list-st",
+				"list-style-type\tproperty"
+			],
+			[
+				"bgi",
+				"background-image\tproperty"
+			],
+			[
+				"s",
+				"section\tTag"
+			],
+			[
+				"l",
+				"left\tfloat"
+			],
+			[
+				"r",
+				"rotate()\ttransform"
+			],
+			[
+				"t",
+				"transform\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"h",
+				"html"
+			],
+			[
+				"ov",
+				"overflow\tproperty"
+			],
+			[
+				"co",
+				"container"
+			],
+			[
+				"игрок",
+				"игрока"
+			],
+			[
+				"user",
+				"userAnswer1"
+			],
+			[
+				"use",
+				"userAnswer"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"re",
+				"readInt"
+			],
+			[
+				"border-b",
+				"border-bottom-color\tproperty"
+			],
+			[
+				"border-bot",
+				"border-bottom-style\tproperty"
+			],
+			[
+				"background-ma",
+				"background-image\tproperty"
+			],
+			[
+				"to",
+				"top\tproperty"
+			],
+			[
+				"rg",
+				"rgba()\tbackground"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"ch",
+				"checkAnswers"
+			],
+			[
+				"sc",
+				"score"
+			],
+			[
+				"va",
+				"var"
+			],
+			[
+				"onC",
+				"onclick\tAttr"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"tr",
+				"transparent\tbackground-color"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"border",
+				"border-style\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: lin",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 66.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Даша пузытый покемон/Desktop/home/chess.js",
+		"/C/Users/Даша пузытый покемон/Desktop/home/style.css",
+		"/C/Users/Даша пузытый покемон/Documents/GitHub/JS_lesson/style.css",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/5/Задание 1.html",
+		"/C/Users/Даша пузытый покемон/Documents/GitHub/JS_lesson/script.js",
+		"/C/Users/Даша пузытый покемон/Documents/GitHub/JS_lesson/index.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/Chess/js/chessboard-1.0.0.js",
+		"/C/Users/Даша пузытый покемон/Desktop/home/index.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/Chess/style.css",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/Chess/index.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/Chess/script.js",
+		"/C/Users/Даша пузытый покемон/Documents/GitHub/Waxom/index.html",
+		"/C/Users/Даша пузытый покемон/Documents/GitHub/Waxom/css/style.less",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/4/ДЗ 4/Задание 2.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/3/ДЗ 3/Задание № 3.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/3/ДЗ 3/Задание № 2.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/3/ДЗ 3/Задание №1.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/5/Задание 1",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/4/ДЗ 4/task1.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/3/ДЗ 3/Задание № 4.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/3/ДЗ 3/Задание № 2-1.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/2/Задания/Задание № 8.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/2/Задания/Задание № 6.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/2/Задания/Задание № 5.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/2/Задания/Задание № 4.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/2/Задания/Задание № 3.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/1/Задание 1.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/1/Задание 2.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/1/Задание 3.html",
+		"/C/Users/Даша пузытый покемон/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/Users/Даша пузытый покемон/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/Даша пузытый покемон/Documents/GitHub/Waxom/css/style.css",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/2/Архив кода/func.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/2/Архив кода/switch.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/2/ЗД1.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/1/Архив кода/index.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/1/Архив кода/2.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/1/task5.js",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/1/Задание 4.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/1/Архив кода/script.js",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/JS/1/Задание 4.js",
+		"/E/Инстал/Open Server (Базовый, Расширенный, Максимальный) 5.2.9/OSPanel/progs/_Office/Sublime_text/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/interior/site/products.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/interior/site/css/style.css",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/interior/site/index.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/Цвайхандер/index.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/975817-technomart-24-master/index.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/market/catalog/spear.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/market/catalog/brodex.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/market/index.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/market/catalog/caroling.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/market/catalog/catalog.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/market/registration.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/market/contacts.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Обучение WEB/market/css/style.css",
+		"/C/Users/Даша пузытый покемон/Documents/GitHub/myportfolio/index.php",
+		"/C/Users/Даша пузытый покемон/Desktop/test.html",
+		"/C/Users/Даша пузытый покемон/Documents/GitHub/myportfolio/menu.php",
+		"/C/Users/Даша пузытый покемон/Desktop/site/generate.php",
+		"/C/Users/Даша пузытый покемон/AppData/Roaming/Sublime Text 3/Packages/auto-save/README.md",
+		"/C/Users/Даша пузытый покемон/AppData/Roaming/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/C/Users/Даша пузытый покемон/AppData/Roaming/Sublime Text 3/Packages/BeautifyLatex/Default (Windows).sublime-keymap",
+		"/C/Users/Даша пузытый покемон/Documents/GitHub/myportfolio/generate.php",
+		"/C/Users/Даша пузытый покемон/Desktop/site/riddle.php",
+		"/C/Users/Даша пузытый покемон/Desktop/site/guess.php",
+		"/C/Users/Даша пузытый покемон/Desktop/site/index.php",
+		"/C/Users/Даша пузытый покемон/Desktop/site/style.css",
+		"/C/Users/Даша пузытый покемон/Desktop/site/menu.php",
+		"/C/Users/Даша пузытый покемон/Desktop/site/riddle.html",
+		"/C/Users/Даша пузытый покемон/Desktop/site/guess.html",
+		"/C/Users/Даша пузытый покемон/Desktop/site/index.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Курс Основы Программирования/riddle.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Курс Основы Программирования/hello.html",
+		"/C/Users/Даша пузытый покемон/Desktop/lending/index.html",
+		"/C/Users/Даша пузытый покемон/Desktop/lending/css/style.css",
+		"/C/Users/Даша пузытый покемон/Desktop/975817-technomart-24-master/css/style.css",
+		"/C/Users/Даша пузытый покемон/Desktop/lending/style.css",
+		"/C/Users/Даша пузытый покемон/Desktop/Курс Основы Программирования/memory2.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Курс Основы Программирования/english.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Курс Основы Программирования/test.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Курс Основы Программирования/memory.html",
+		"/C/Users/Даша пузытый покемон/Desktop/site/site.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Курс Основы Программирования/loops.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Курс Основы Программирования/Trapeze.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Курс Основы Программирования/summ2.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Курс Основы Программирования/summ.html",
+		"/C/Users/Даша пузытый покемон/Desktop/Курс Основы Программирования/Convert.html",
+		"/C/Users/Даша пузытый покемон/Desktop/hello.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "Новый текстовый документ.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
