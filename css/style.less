@@ -289,7 +289,49 @@ body {
 						background-size: contain;
 						background-repeat: no-repeat;
 						cursor: pointer;
-					}	  				
+					}
+				}
+				#close-search {
+					//display: none;
+					position: absolute;
+					top: 42px;
+					right: 225px;
+					width: 25px;
+					height: 22px;
+					font-size: 0;
+					background-color: transparent;
+					border: 0;
+					cursor: pointer;
+				}
+
+				#close-search:before,
+				#close-search:after
+				{
+					position: absolute;
+					top: 7px;
+					left: 1px;
+					content: "";
+					width: 25px;
+					height: 4px;
+					background-color: #ffffff;
+				}
+
+				#close-search:before::hover,
+				#close-search:after::hover {
+						background-color: #ff5358;
+				}
+
+				#close-search:before
+				{
+					transform: rotate(45deg);
+/* 					&:hover {
+	background-color: #ff5358;
+} */
+				}
+
+				#close-search:after
+				{
+					transform: rotate(-45deg);
 				}
 			}
 		}
@@ -1491,8 +1533,6 @@ body {
 }
 /*===============END MEDIA MOBILE (576px)==============*/
 
-
-
-
-
-
+.highlight {
+	background: #8af387;
+}
