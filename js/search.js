@@ -1,44 +1,50 @@
-document.getElementById('main-search').onclick = function() { // функция скрыть и показать поиск
+// функция показать поиск
+document.querySelector('.main-search').onclick = function() {
 	
-	let searchText = document.getElementById('search-text');
-	searchText.style.display = 'block' // Открываем поле ввода
+	let searchContent = document.querySelector('.search-content');
+	searchContent.style.display = 'block'; // Открываем поле ввода
 
-	let searchButton = document.getElementById('search-button');
-	searchButton.style.display = 'block' // Открываем кнопку поиска
+	document.querySelector('.close-search').style.display = 'block'; // Открываем кнопку закрытия поиска
 
-	let searchButtonHead = document.getElementById('search-button-head');
-	searchButtonHead.style.background = 'none'; // Скрываем кнопку в основном меню
+	document.querySelector('.close-search').onclick = function(){ // Закрываем поле ввода
+		if (searchContent.style.display = 'block') {
+			searchContent.style.display = 'none';
+			document.querySelector('.close-search').style.display = 'none';
+		}
+	}
+	$(".close-search").click(function(){ // Убираем подсветку при нажатии
+		$('body').removeHighlight();
+	})
 };
 
-$(document).ready(function(){ // функция поиска на странице
+// функция поиска на странице
+$(document).ready(function(){
 
-  $("#search-button").click(function(){ // Обрабатка нажатия на кнопку
+	$(".search-button").click(function(){ // Обрабатка нажатия на кнопку
 
-    // Очищаем переменную, в которой будет поисковый запрос
-    var text = "";
+		// Переменная для вводимого текста
+		let text = "";
  
-    // Убираем всю подсветку из прошлого поиска
-    $('body').removeHighlight();
+		// Убираем всю подсветку из прошлого поиска
+		$('body').removeHighlight();
 
-    // Берем текст из поля ввода и кладем в переменную text
-    text = $('#search-text').attr('value');
+		// Берем текст из поля ввода и кладем в переменную text
+		text = $('.search-text').attr('value');
 
-    // Если строка поиска пустая
-    if ($('#search-text').val() == ""){
+		// Если строка поиска пустая
+		if ($('.search-text').val() == ""){
 
-      //То ничего не происходит ;)
+			//То ничего не происходит ;)
 
-      return false;
+			return false;
 
-     // Иначе
-    } else {
+		} else {
+			//Подсвечиваем все найденные совпадения
+			$('body').highlight(text);
 
-      //Подсвечиваем все найденные совпадения
-      $('body').highlight(text);
+			return false;
 
-      return false;
-
-    }
-  });      
+    	}
+	});      
 });
 
