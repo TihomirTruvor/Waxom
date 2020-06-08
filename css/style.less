@@ -324,7 +324,8 @@ body {
 		flex-direction: column;
 		width: 100%;
 		margin-top: 285px;
-		.tegline {
+		.slider-item {
+			display: none;
 			width: 590px;
 			margin: 0 auto;
 			color: #ffffff;
@@ -349,18 +350,19 @@ body {
 				margin: 0 auto;
 				margin-top: 52px;
 				.btn-1;
-				&:hover {
-					.btn-1;
-				}
+				&:hover,
 				&:active {
 					.btn-1;
 				}
 			}
 		}
-		.arrow-left {
+		.arrow-left,
+		.arrow-right {
 			position: absolute;
-			top: 95px;
-			left: 190px;
+			background: transparent;
+			outline: none;
+			border: none;
+			cursor: pointer;
 			fill: #aaaaab;
 			&:hover {
 				fill: #ffffff;
@@ -369,17 +371,13 @@ body {
 				fill: #998675;
 			}
 		}
+		.arrow-left {
+			top: 95px;
+			left: 190px;
+		}
 		.arrow-right {
-			position: absolute;
 			top: 95px;
 			right: 190px;
-			fill: #aaaaab;
-			&:hover {
-				fill: #ffffff;
-			}
-			&:active {
-				fill: #998675;
-			}
 		}
 		.slider-navigation {
 			display: flex;
@@ -405,6 +403,12 @@ body {
 					background-color: #c7b299;
 				}
 			}
+		}
+		.block { // для отображения слайдера
+	    display: block;
+		object-fit: cover;
+		//width: 100%;
+		//height: 100%;
 		}
 	}
 }
