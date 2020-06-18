@@ -81,12 +81,10 @@
 				width="40" height="73">
 				<path d="M1.974,72.979 L39.995,36.498 L1.974,0.018 L0.005,2.022 L35.934,36.498 L0.005,70.977 L1.974,72.979 Z"/>
 				</svg></button>
-			<div class="slider-navigation">
-				<a class="slider-navigation-btn"></a>
-				<a class="slider-navigation-btn"></a>
-				<a class="slider-navigation-btn"></a>
-				<a class="slider-navigation-btn"></a>
-				<a class="slider-navigation-btn"></a>
+			<div class="slider-indicator">
+				<span class="slider-indicator-item active"></span>
+				<span class="slider-indicator-item"></span>
+				<span class="slider-indicator-item"></span>
 			</div>
 		</section>
 	</header>
@@ -149,14 +147,14 @@
 			<h2 class="projects-title">Our Latest Projects.</h2>
 			<p class="projects-text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
 			<div class="projects-categories">
-				<button class="btn-projects-categories">All</button>
-				<button class="btn-projects-categories">Web Design</button>
-				<button class="btn-projects-categories">Mobile App</button>
-				<button class="btn-projects-categories">Illustration</button>
-				<button class="btn-projects-categories">Photography</button>
+				<button class="btn-projects-categories" data-id="all">All</button>
+				<button class="btn-projects-categories" data-id="web-design">Web Design</button>
+				<button class="btn-projects-categories" data-id="mobile-app">Mobile App</button>
+				<button class="btn-projects-categories" data-id="illustration">Illustration</button>
+				<button class="btn-projects-categories" data-id="photography">Photography</button>
 			</div>
 			<div class="projects-list">
-				<div class="projects-item">
+				<div class="projects-item mobile-app">
 					<img class="projects-item-img" src="img/photo1.jpg" alt="photo" width="370" height="237">
 					<div class="projects-item-wrp">
 						<span class="projects-item-title">Claritas Etiam Processus</span>
@@ -177,7 +175,7 @@
 						</svg>
 					</button>
 				</div>
-				<div class="projects-item">
+				<div class="projects-item photography">
 					<img class="projects-item-img" src="img/photo2.jpg" alt="photo" width="370" height="237">
 					<div class="projects-item-wrp">
 						<span class="projects-item-title">Quam Nutamus Farum</span>
@@ -198,7 +196,7 @@
 						</svg>
 					</button>
 				</div>
-				<div class="projects-item">
+				<div class="projects-item web-design">
 					<img class="projects-item-img" src="img/photo3.jpg" alt="photo" width="370" height="237">
 					<div class="projects-item-wrp">
 						<span class="projects-item-title">Usus Legentis Videntur</span>
@@ -219,7 +217,7 @@
 						</svg>
 					</button>
 				</div>
-				<div class="projects-item">
+				<div class="projects-item photography">
 					<img class="projects-item-img" src="img/photo4.jpg" alt="photo" width="370" height="237">
 					<div class="projects-item-wrp">
 						<span class="projects-item-title">Claritas Etiam Processus</span>
@@ -240,7 +238,7 @@
 						</svg>
 					</button>
 				</div>
-				<div class="projects-item">
+				<div class="projects-item illustration">
 					<img class="projects-item-img" src="img/photo5.jpg" alt="photo" width="370" height="237">
 					<div class="projects-item-wrp">
 						<span class="projects-item-title">Quam Nutamus Farum</span>
@@ -261,7 +259,7 @@
 						</svg>
 					</button>
 				</div>
-				<div class="projects-item">
+				<div class="projects-item photography">
 					<img class="projects-item-img" src="img/photo6.jpg" alt="photo" width="370" height="237">
 					<div class="projects-item-wrp">
 						<span class="projects-item-title">Usus Legentis Videntur</span>
@@ -282,7 +280,6 @@
 						</svg>
 					</button>
 				</div>
-				<button class="load-more-btn">Load More</button>
 			</div>
 		</section>
 		<section class="video">
@@ -488,16 +485,13 @@
 	
 	<!--подключаем библиотеку jQuery для поиска по странице-->
 	<script src="https://thecode.media/wp-content/uploads/2019/06/jquery.js" type="text/javascript"></script>
-
 	<!--подключаем плагин highlight.js для подсветки найденного-->
 	<script src='https://thecode.media/wp-content/uploads/2019/06/jqueryhighlight.js'/></script>
-
 	<!-- подключаем файл поиска -->
 	<script src="js/search.js"></script> 
-
 	<!-- подключаем файл слайдера в шапке -->
 	<script src="js/slider-heder.js"></script>
-
-
+	<!-- подключаем скрипт раздела проекты -->
+	<script src="js/project.js"></script>
 </body>
 </html>
